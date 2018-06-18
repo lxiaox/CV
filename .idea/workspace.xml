@@ -4,7 +4,6 @@
     <list default="true" id="c67606cd-a9d1-499f-87e7-f3f6f4e11773" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="221" column="42" lean-forward="true" selection-start-line="221" selection-start-column="42" selection-end-line="221" selection-end-column="42" />
+            <state relative-caret-position="265">
+              <caret line="238" column="16" selection-start-line="238" selection-start-column="16" selection-end-line="238" selection-end-column="16" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -110,8 +109,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="439" />
-    <option name="y" value="251" />
+    <option name="x" value="579" />
+    <option name="y" value="47" />
     <option name="width" value="800" />
     <option name="height" value="669" />
   </component>
@@ -175,15 +174,15 @@
       <workItem from="1526390236017" duration="8592000" />
       <workItem from="1526821337369" duration="12230000" />
       <workItem from="1529150621883" duration="11618000" />
-      <workItem from="1529235902829" duration="10628000" />
+      <workItem from="1529235902829" duration="15046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43068000" />
+    <option name="totallyTimeSpent" value="47486000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="524" y="72" width="800" height="669" extended-state="0" />
+    <frame x="579" y="47" width="800" height="669" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1830161" />
@@ -210,6 +209,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.css">
@@ -382,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="221" column="42" lean-forward="true" selection-start-line="221" selection-start-column="42" selection-end-line="221" selection-end-column="42" />
+        <state relative-caret-position="265">
+          <caret line="238" column="16" selection-start-line="238" selection-start-column="16" selection-end-line="238" selection-end-column="16" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />

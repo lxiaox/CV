@@ -194,10 +194,12 @@
             </div>
         </div>
     </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.2.0/Tween.min.js"></script>
     <script>
         setTimeout(function () {
             siteWelcome.classList.remove('active')
-        },0)
+        },100)
 
         window.onscroll = function () {
             if(window.scrollY>0){
@@ -218,6 +220,13 @@
         }
 
         let aTags= document.querySelectorAll('nav.menu > ul > li > a')
+
+        function animate(time) {
+            requestAnimationFrame(animate);
+            TWEEN.update(time);
+        }
+        requestAnimationFrame(animate);
+
         for(let i=0; i<aTags.length; i++){
             aTags[i].onclick=function(msg) {
                 msg.preventDefault()
@@ -225,9 +234,28 @@
                 let href = a.getAttribute('href')
                 let element = document.querySelector(href)
                 let top = element.offsetTop
-                window.scrollTo(100,top - 120)
+
+                let currentTop = window.scrollY   //注意：这里的currentTop为最近的上一次点击对象的offsettop
+                console.log(currentTop)
+
+                let targetTop =  top - 100
+                let s = targetTop - currentTop
+                var coords = {y:currentTop}
+                var t = Math.abs( (s/100) * 300)
+                if(t>500){t = 500}
+                var tween = new TWEEN.Tween(coords)
+                    .to({ y: targetTop }, t)
+                    .easing(TWEEN.Easing.Quadratic.InOut)
+                    .onUpdate(function() {
+                        window.scrollTo(0,coords.y)
+                        console.log("kakami")
+
+                    })
+                    .start();
             }
         }
+
+
     </script>
 </body>
 </html>
