@@ -69,7 +69,7 @@
     </div>
     <div class="banner"><div class="mask"></div></div>
     <main>
-        <div id="siteAbout" class="userCard">
+        <div data-x id="siteAbout" class="userCard">
             <div class="PictureAndText clearfix">
                 <div class="picture">
                     <img src="img/avatar.jpg" width="297" height="345" alt="头像">
@@ -117,7 +117,7 @@
 
         <p class="selfIntroduction">你好，我是刘潇潇，计算机专业大三学生，正在学前端！</p>
     </main>
-    <section id="siteSkills" class="skills">
+    <section data-x id="siteSkills" class="skills">
         <h2>技能</h2>
         <ol class="clearfix">
             <li>
@@ -158,7 +158,7 @@
             </li>
         </ol>
     </section>
-    <section id="siteWorks" class="portfolio">
+    <section data-x id="siteWorks" class="portfolio">
         <h2>作品集</h2>
         <nav>
             <ol class="clearfix">
@@ -201,22 +201,43 @@
         setTimeout(function () {
             siteWelcome.classList.remove('active')
         },100)
-        //往下滚动导航栏变白变矮样式
+
         window.onscroll = function () {
+            //往下滚动导航栏变白变矮样式
             if(window.scrollY>0){
                 topNavBar.classList.add('sticky')
             }else{
                 topNavBar.classList.remove('sticky')
             }
+            //滚动时导航栏菜单高亮
+            let specialTags = document.querySelectorAll('[data-x]')
+            console.log(specialTags)
+            let minIndex = 0
+            //找出3个中离窗口最近的。
+            for(let i=1;i<specialTags.length;i++){
+                if(Math.abs(specialTags[i].offsetTop - window.scrollY) <
+                    Math.abs(specialTags[minIndex].offsetTop - window.scrollY) ){
+                    minIndex = i
+                }
+            }
+
+            let a = document.querySelector('a[href="#'+ specialTags[minIndex].id +'"]')
+            let li = a.parentNode
+            let brotherAndMe = li.parentNode.children
+            for(let i=0;i<brotherAndMe.length;i++){
+                brotherAndMe[i].classList.remove('highlight')
+            }
+            li.classList.add('highlight')
         }
-        //导航栏子菜单
+
+        //导航栏子菜单,及菜单底部滑块
         let liTags=document.querySelectorAll('nav.menu > ul > li')
         for(let i=0;i<liTags.length;i++) {
             liTags[i].onmouseenter = function (msg) {
-                msg.currentTarget.classList.add('activeSubmenu')
+                msg.currentTarget.classList.add('active')
             }
             liTags[i].onmouseleave = function (msg) {
-                msg.currentTarget.classList.remove('activeSubmenu')
+                msg.currentTarget.classList.remove('active')
             }
         }
 
