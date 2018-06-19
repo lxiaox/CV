@@ -25,7 +25,7 @@ hr{height: 0;border:none;border-top: 1px solid #dedede;}
 
 .topNavBar .submenu{font-size: 12px;position: absolute;display: none;
     right: 0;top:100%;background: white;animation:submenuSlide .5s;box-shadow: 0 0 5px rgba(0,0,0,0.5);}
-.topNavBar nav> ul li.active .submenu{display: block;cursor:pointer;}
+.topNavBar nav> ul li.activeSubmenu .submenu{display: block;cursor:pointer;}
 .topNavBar .submenu li{white-space: nowrap;padding:5px 10px;transition: all .3s;}
 .topNavBar .submenu li:hover{color:#E6686A;}
 @keyframes submenuSlide{ from{margin-right: 100%;opacity: 0;} to{margin-right: 0;opacity: 1;} }

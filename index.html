@@ -197,10 +197,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.2.0/Tween.min.js"></script>
     <script>
+        //loading等待动画延迟
         setTimeout(function () {
             siteWelcome.classList.remove('active')
         },100)
-
+        //往下滚动导航栏变白变矮样式
         window.onscroll = function () {
             if(window.scrollY>0){
                 topNavBar.classList.add('sticky')
@@ -208,17 +209,18 @@
                 topNavBar.classList.remove('sticky')
             }
         }
-
+        //导航栏子菜单
         let liTags=document.querySelectorAll('nav.menu > ul > li')
         for(let i=0;i<liTags.length;i++) {
             liTags[i].onmouseenter = function (msg) {
-                msg.currentTarget.classList.add('active')
+                msg.currentTarget.classList.add('activeSubmenu')
             }
             liTags[i].onmouseleave = function (msg) {
-                msg.currentTarget.classList.remove('active')
+                msg.currentTarget.classList.remove('activeSubmenu')
             }
         }
 
+        //滚动动画
         let aTags= document.querySelectorAll('nav.menu > ul > li > a')
 
         function animate(time) {
