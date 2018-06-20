@@ -93,9 +93,5 @@ section.portfolio .works> .small {position: absolute;}
 section.portfolio .works> .big >img,
 section.portfolio .works> .small >img {box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);}
 
-[data-x]{
-    transition: all 0.5s;
-}
-[data-x].offset{
-    transform: translateY(100px);
-}
+[data-x]{transition: all 0.5s;}
+[data-x].offset{transform: translateY(100px);}
