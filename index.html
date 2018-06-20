@@ -197,29 +197,43 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.2.0/Tween.min.js"></script>
     <script>
-        //loading等待动画延迟
+        //loading等待动画
+
+        siteWelcome.classList.remove('active')
+
+        //添加 offset 类
+        let specialTags = document.querySelectorAll('[data-x]')
+        for(let i=0;i<specialTags.length;i++){
+            console.log(specialTags[i])
+            specialTags[i].classList.add('offset')
+        }
         setTimeout(function () {
-            siteWelcome.classList.remove('active')
-        },100)
+            findCloest()
+        },300)
 
         window.onscroll = function () {
             //往下滚动导航栏变白变矮样式
-            if(window.scrollY>0){
+            if (window.scrollY > 0) {
                 topNavBar.classList.add('sticky')
-            }else{
+            } else {
                 topNavBar.classList.remove('sticky')
             }
+            findCloest()
+        }
+
+        function findCloest() {
             //滚动时导航栏菜单高亮
             let specialTags = document.querySelectorAll('[data-x]')
-            console.log(specialTags)
             let minIndex = 0
             //找出3个中离窗口最近的。
             for(let i=1;i<specialTags.length;i++){
+
                 if(Math.abs(specialTags[i].offsetTop - window.scrollY) <
                     Math.abs(specialTags[minIndex].offsetTop - window.scrollY) ){
                     minIndex = i
                 }
             }
+            specialTags[minIndex].classList.remove('offset')
 
             let a = document.querySelector('a[href="#'+ specialTags[minIndex].id +'"]')
             let li = a.parentNode
@@ -259,7 +273,6 @@
                 let top = element.offsetTop
 
                 let currentTop = window.scrollY   //注意：这里的currentTop为最近的上一次点击对象的offsettop
-                console.log(currentTop)
 
                 let targetTop =  top - 100
                 let s = targetTop - currentTop
@@ -271,8 +284,6 @@
                     .easing(TWEEN.Easing.Quadratic.InOut)
                     .onUpdate(function() {
                         window.scrollTo(0,coords.y)
-                        console.log("kakami")
-
                     })
                     .start();
             }
