@@ -14,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="430">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="211" column="13" selection-start-line="211" selection-start-column="13" selection-end-line="211" selection-end-column="13" />
+            <state relative-caret-position="295">
+              <caret line="51" column="57" lean-forward="true" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -38,14 +38,12 @@
                 <element signature="n#dl#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#0;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#svg#0;n#a#0;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#1;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#svg#0;n#a#1;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#2;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#svg#0;n#a#2;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#p#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#li#0;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#li#0;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#1;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#li#1;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -57,9 +55,7 @@
                 <element signature="n#div#0;n#li#4;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ol#0;n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
@@ -69,7 +65,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -79,6 +91,10 @@
       <find>scr</find>
       <find>box-s</find>
       <find>pro</find>
+      <find>icon</find>
+      <find>media</find>
+      <find>sub</find>
+      <find>nav</find>
     </findStrings>
     <replaceStrings>
       <replace>bb</replace>
@@ -92,7 +108,9 @@
       <list>
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/a.css" />
+        <option value="$PROJECT_DIR$/js.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/main.css" />
       </list>
     </option>
@@ -107,8 +125,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="526" />
-    <option name="y" value="64" />
+    <option name="x" value="565" />
+    <option name="y" value="48" />
     <option name="width" value="856" />
     <option name="height" value="669" />
   </component>
@@ -116,20 +134,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CV" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="siteA&#9;null&#9;null&#10;top&#9;null&#9;null" />
@@ -172,15 +177,15 @@
       <workItem from="1526390236017" duration="8592000" />
       <workItem from="1526821337369" duration="12230000" />
       <workItem from="1529150621883" duration="11618000" />
-      <workItem from="1529235902829" duration="28776000" />
+      <workItem from="1529235902829" duration="37690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61216000" />
+    <option name="totallyTimeSpent" value="70130000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="526" y="64" width="856" height="669" extended-state="0" />
+    <frame x="505" y="38" width="856" height="669" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1830161" />
@@ -235,14 +240,12 @@
             <element signature="n#dl#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#a#0;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#1;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#1;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#2;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#2;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#0;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -254,9 +257,7 @@
             <element signature="n#div#0;n#li#4;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ol#0;n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
@@ -286,14 +287,12 @@
             <element signature="n#dl#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#a#0;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#1;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#1;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#2;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#2;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#0;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -305,9 +304,7 @@
             <element signature="n#div#0;n#li#4;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ol#0;n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
@@ -337,14 +334,12 @@
             <element signature="n#dl#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#a#0;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#1;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#1;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#2;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#2;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#0;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -356,9 +351,7 @@
             <element signature="n#div#0;n#li#4;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ol#0;n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
@@ -389,17 +382,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="211" column="13" selection-start-line="211" selection-start-column="13" selection-end-line="211" selection-end-column="13" />
+        <state relative-caret-position="295">
+          <caret line="51" column="57" lean-forward="true" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -410,14 +396,12 @@
             <element signature="n#dl#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#a#0;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#1;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#1;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#2;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#2;n#footer#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#0;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#1;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -429,14 +413,26 @@
             <element signature="n#div#0;n#li#4;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ol#0;n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#nav#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
         </state>
       </provider>
     </entry>

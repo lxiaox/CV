@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>lxiaox的个人简历</title>
     <link rel="stylesheet" href="main.css">
-    <script src="//at.alicdn.com/t/font_675456_y3i0kv9kuho7p66r.js"></script>
+    <script src="//at.alicdn.com/t/font_675456_d6matw1i786.js"></script>
     <style type="text/css">
         .loading{width:200px;height:200px;position:relative;}
         .loading::before,
@@ -47,9 +47,9 @@
                     <li>
                         <a href="#siteWorks">作品</a>
                         <ul class="submenu">
-                            <li>作品1</li>
-                            <li>作品2</li>
-                            <li>作品3</li>
+                            <li id="portfolioAll1"><a href="#siteWorks">所有</a></li>
+                            <li id="portfolioFrame1"><a href="#siteWorks">框架</a></li>
+                            <li id="portfolioVallingJS1"><a href="#siteWorks">原生JS</a></li>
                         </ul>
                     </li>
                     <li>
@@ -170,18 +170,7 @@
                 <div class="bar-inner"></div>
             </div>
         </nav>
-        <script>
-            portfolioAll.onclick= function () {
-                portfolioBar.className= 'bar state1'
-            }
-            portfolioFrame.onclick= function () {
-                portfolioBar.className= 'bar state2'
-            }
-            portfolioVallingJS.onclick= function () {
-                portfolioBar.className= 'bar state3'
-            }
 
-        </script>
         <div class="works">
             <div class="big" style="top:0; left: 0;">
                 <img src="./img/1.jpg" alt="作品1">
@@ -195,101 +184,14 @@
         </div>
     </section>
 
+    <a class="backTop" href="#">
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-backtop"></use>
+        </svg>
+    </a>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.2.0/Tween.min.js"></script>
-    <script>
-        //loading等待动画
+    <script src="main.js"></script>
 
-        siteWelcome.classList.remove('active')
-
-        //添加 offset 类
-        let specialTags = document.querySelectorAll('[data-x]')
-        for(let i=0;i<specialTags.length;i++){
-            console.log(specialTags[i])
-            specialTags[i].classList.add('offset')
-        }
-        setTimeout(function () {
-            findCloest()
-        },300)
-
-        window.onscroll = function () {
-            //往下滚动导航栏变白变矮样式
-            if (window.scrollY > 0) {
-                topNavBar.classList.add('sticky')
-            } else {
-                topNavBar.classList.remove('sticky')
-            }
-            findCloest()
-        }
-
-        function findCloest() {
-            //滚动时导航栏菜单高亮
-            let specialTags = document.querySelectorAll('[data-x]')
-            let minIndex = 0
-            //找出3个中离窗口最近的。
-            for(let i=1;i<specialTags.length;i++){
-
-                if(Math.abs(specialTags[i].offsetTop - window.scrollY) <
-                    Math.abs(specialTags[minIndex].offsetTop - window.scrollY) ){
-                    minIndex = i
-                }
-            }
-            specialTags[minIndex].classList.remove('offset')
-
-            let a = document.querySelector('a[href="#'+ specialTags[minIndex].id +'"]')
-            let li = a.parentNode
-            let brotherAndMe = li.parentNode.children
-            for(let i=0;i<brotherAndMe.length;i++){
-                brotherAndMe[i].classList.remove('highlight')
-            }
-            li.classList.add('highlight')
-        }
-
-        //导航栏子菜单,及菜单底部滑块
-        let liTags=document.querySelectorAll('nav.menu > ul > li')
-        for(let i=0;i<liTags.length;i++) {
-            liTags[i].onmouseenter = function (msg) {
-                msg.currentTarget.classList.add('active')
-            }
-            liTags[i].onmouseleave = function (msg) {
-                msg.currentTarget.classList.remove('active')
-            }
-        }
-
-        //滚动动画
-        let aTags= document.querySelectorAll('nav.menu > ul > li > a')
-
-        function animate(time) {
-            requestAnimationFrame(animate);
-            TWEEN.update(time);
-        }
-        requestAnimationFrame(animate);
-
-        for(let i=0; i<aTags.length; i++){
-            aTags[i].onclick=function(msg) {
-                msg.preventDefault()
-                let a = msg.currentTarget
-                let href = a.getAttribute('href')
-                let element = document.querySelector(href)
-                let top = element.offsetTop
-
-                let currentTop = window.scrollY   //注意：这里的currentTop为最近的上一次点击对象的offsettop
-
-                let targetTop =  top - 100
-                let s = targetTop - currentTop
-                var coords = {y:currentTop}
-                var t = Math.abs( (s/100) * 300)
-                if(t>500){t = 500}
-                var tween = new TWEEN.Tween(coords)
-                    .to({ y: targetTop }, t)
-                    .easing(TWEEN.Easing.Quadratic.InOut)
-                    .onUpdate(function() {
-                        window.scrollTo(0,coords.y)
-                    })
-                    .start();
-            }
-        }
-
-
-    </script>
 </body>
 </html>
