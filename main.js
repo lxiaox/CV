@@ -5,7 +5,6 @@ siteWelcome.classList.remove('active')
 //添加 offset 类
 let specialTags = document.querySelectorAll('[data-x]')
 for(let i=0;i<specialTags.length;i++){
-    console.log(specialTags[i])
     specialTags[i].classList.add('offset')
 }
 setTimeout(function () {
@@ -70,7 +69,6 @@ for(let i=0; i<aTags.length; i++){
         let a = msg.currentTarget
         let href = a.getAttribute('href')
         let element = document.querySelector(href)
-        console.log(element)
         if(element === undefined){return}
         msg.preventDefault()
 
@@ -103,7 +101,6 @@ for(let i=0; i<aTags.length; i++){
 //     }
 // }
 portfolioAll1.onclick= function () {
-    console.log("kakami")
     portfolioBar.className= 'bar state1'
 }
 portfolioFrame1.onclick= function () {
