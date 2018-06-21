@@ -67,10 +67,13 @@ requestAnimationFrame(animate);
 
 for(let i=0; i<aTags.length; i++){
     aTags[i].onclick=function(msg) {
-        msg.preventDefault()
         let a = msg.currentTarget
         let href = a.getAttribute('href')
         let element = document.querySelector(href)
+        console.log(element)
+        if(element === undefined){return}
+        msg.preventDefault()
+
         let top = element.offsetTop
 
         let currentTop = window.scrollY   //注意：这里的currentTop为最近的上一次点击对象的offsetop
