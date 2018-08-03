@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c67606cd-a9d1-499f-87e7-f3f6f4e11773" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/js/auto-spring-up.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/init-mySwiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/navBarMenuSliderAndSubmenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/smoothly-navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/sticky-topNavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,16 +27,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="181" selection-start-line="181" selection-end-line="181" />
+            <state relative-caret-position="238">
+              <caret line="149" column="37" selection-start-line="149" selection-start-column="37" selection-end-line="149" selection-end-column="37" />
               <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="e#1101#1369#0" />
-                <element signature="e#1397#1435#0" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#2;n#ul#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -67,8 +69,43 @@
                 <element signature="n#div#0;n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init-mySwiper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/init-mySwiper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navBarMenuSliderAndSubmenu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/navBarMenuSliderAndSubmenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smoothly-navigation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/smoothly-navigation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sticky-topNavBar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/sticky-topNavBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -76,17 +113,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="40" column="59" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="59" />
+            <state relative-caret-position="236">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
@@ -96,6 +124,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -110,13 +139,22 @@
       <find>pro</find>
       <find>icon</find>
       <find>media</find>
-      <find>sub</find>
       <find>nav</find>
       <find>console</find>
       <find>css</find>
+      <find>style</find>
+      <find>find</find>
+      <find>findCloest</find>
+      <find>sub</find>
+      <find>specialTags</find>
+      <find>animate</find>
+      <find>script</find>
+      <find>port</find>
     </findStrings>
     <replaceStrings>
       <replace>bb</replace>
+      <replace>findCloestAndRemoveOffset</replace>
+      <replace>view</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -128,9 +166,18 @@
         <option value="$PROJECT_DIR$/a.css" />
         <option value="$PROJECT_DIR$/js.js" />
         <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/1.js" />
+        <option value="$PROJECT_DIR$/loading.css" />
+        <option value="$PROJECT_DIR$/addAndRemoveOffset.js" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/js/init-mySwiper.js" />
+        <option value="$PROJECT_DIR$/js/navBarMenuSliderAndSubmenu.js" />
+        <option value="$PROJECT_DIR$/js/auto-spring-up.js" />
+        <option value="$PROJECT_DIR$/js/smoothly-navigation.js" />
+        <option value="$PROJECT_DIR$/js/sticky-topNavBar.js" />
       </list>
     </option>
   </component>
@@ -143,22 +190,45 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="320" />
-    <option name="y" value="116" />
-    <option name="width" value="856" />
-    <option name="height" value="702" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="402" />
+    <option name="y" value="82" />
+    <option name="width" value="1116" />
+    <option name="height" value="669" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CV" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="siteA&#9;null&#9;null&#10;top&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -167,6 +237,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lxiaox\Desktop\CV\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lxiaox\Desktop\CV" />
     </key>
@@ -197,18 +270,18 @@
       <workItem from="1526821337369" duration="12230000" />
       <workItem from="1529150621883" duration="11618000" />
       <workItem from="1529235902829" duration="39860000" />
-      <workItem from="1533185311595" duration="8884000" />
+      <workItem from="1533185311595" duration="20536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81184000" />
+    <option name="totallyTimeSpent" value="92836000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="320" y="116" width="856" height="702" extended-state="1" />
+    <frame x="402" y="82" width="1116" height="669" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1830161" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13909091" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -244,13 +317,9 @@
         <state relative-caret-position="1003">
           <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
           <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#1101#1369#0" />
-            <element signature="e#1397#1435#0" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -287,12 +356,11 @@
             <element signature="n#div#0;n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
+    <entry file="file://$PROJECT_DIR$/js/navBarMenuSliderAndSubmenu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
@@ -305,13 +373,9 @@
         <state relative-caret-position="3774">
           <caret line="222" lean-forward="true" selection-start-line="222" selection-end-line="222" />
           <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#1101#1369#0" />
-            <element signature="e#1397#1435#0" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -348,7 +412,6 @@
             <element signature="n#div#0;n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -359,13 +422,9 @@
         <state relative-caret-position="1241">
           <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
           <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#1101#1369#0" />
-            <element signature="e#1397#1435#0" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -402,7 +461,6 @@
             <element signature="n#div#0;n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -413,13 +471,9 @@
         <state relative-caret-position="425">
           <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#1101#1369#0" />
-            <element signature="e#1397#1435#0" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -456,7 +510,6 @@
             <element signature="n#div#0;n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -471,18 +524,24 @@
     <entry file="file://$USER_HOME$/resume2/CV/index.html" />
     <entry file="file://$USER_HOME$/resume2/CV/main.css" />
     <entry file="file://$PROJECT_DIR$/main.css" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loading.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
+        <state relative-caret-position="238">
+          <caret line="149" column="37" selection-start-line="149" selection-start-column="37" selection-end-line="149" selection-end-column="37" />
           <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#1101#1369#0" />
-            <element signature="e#1397#1435#0" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -519,22 +578,49 @@
             <element signature="n#div#0;n#li#5;n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/auto-spring-up.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        <state relative-caret-position="236">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
+    <entry file="file://$PROJECT_DIR$/js/smoothly-navigation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="40" column="59" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="59" />
+        <state relative-caret-position="316">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/init-mySwiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/navBarMenuSliderAndSubmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sticky-topNavBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
