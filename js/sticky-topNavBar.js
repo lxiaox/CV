@@ -11,7 +11,6 @@
         },
         bindEvents: function () {
             let view = this.view
-            console.log(view)
             window.addEventListener('scroll', ()=> {
                 if (window.scrollY > 0) {
                     view.classList.add('sticky')
