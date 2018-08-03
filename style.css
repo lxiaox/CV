@@ -77,25 +77,18 @@ section.skills .progressBar .progress {height: 100%;background: #E8676B;width: 5
     border-radius: 5px;transition: all 1s}
 section.skills.offset .progressBar .progress{
     transform: translateX(-100%);}
-section.portfolio {margin-bottom: 100px;text-align: center;}
-section.portfolio nav {text-align: center;display: inline-block;vertical-align: top;margin-top: 36px;margin-bottom: 30px;}
-section.portfolio nav ol {display: inline-block;vertical-align: top;}
-section.portfolio nav ol li  {float: left;margin-left: 40px;cursor: pointer;}
-section.portfolio nav ol li:nth-child(1)  {margin-left: 0;}
-section.portfolio .bar{height: 5px;border-radius:5px;background: #fff;margin-top: 16px;}
-section.portfolio .bar .bar-inner {height: 100%;border-radius: 5px;background: #E8676B;width:30px;transition: all 0.3s;}
-section.portfolio .bar.state1 .bar-inner {margin-left: 0;width:45px;}
-section.portfolio .bar.state2 .bar-inner {margin-left: 68px;width:50px;}
-section.portfolio .bar.state3 .bar-inner {margin-left: 142px;width:90px;}
-section.portfolio .works {position: relative;height: 597px;}
-section.portfolio .works> .big,
-section.portfolio .works> .small {position: absolute;}
-section.portfolio .works> .big >img,
-section.portfolio .works> .small >img {box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);}
+section.portfolio {margin-bottom: 100px;text-align: center;position: relative;}
+section.portfolio h2{margin-bottom: 32px;}
+section.portfolio> .swiper-container{width: 669px;height: 501px;z-index: -1;}
+section.portfolio .swiper-button-prev,
+section.portfolio .swiper-button-next{left: auto;right: 90%;margin-top:16px;width: 36px;height: 36px;background-color: white;border-radius: 50%;z-index: 0;}
+section.portfolio .swiper-button-next{right: auto;left: 90%;}
+
 
 [data-x]{transition: all 0.5s;}
 [data-x].offset{transform: translateY(100px);}
 
 .backTop{position: fixed;right: 50px;bottom: 35px;}
-.backTop .icon{width: 50px;height: 50px;fill: #F08A86;}
+.backTop .icon{width: 30px;height: 30px;fill: #F08A86;}
 .backTop .icon:hover{fill: #E6686A;transition: all .3s;}
+

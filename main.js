@@ -1,11 +1,15 @@
-//loading等待动画
 
+
+//loading等待动画
 siteWelcome.classList.remove('active')
 
 //添加 offset 类
 let specialTags = document.querySelectorAll('[data-x]')
 for(let i=0;i<specialTags.length;i++){
-    specialTags[i].classList.add('offset')
+    //进入页面时就在中间，在页面上的元素不便移，以免遮住当前元素
+    if(specialTags[i].offsetTop  > window.scrollY) {
+        specialTags[i].classList.add('offset')
+    }
 }
 setTimeout(function () {
     findCloest()
@@ -23,9 +27,8 @@ window.onscroll = function () {
 
 function findCloest() {
     //滚动时导航栏菜单高亮
-    let specialTags = document.querySelectorAll('[data-x]')
     let minIndex = 0
-    //找出3个中离窗口最近的。
+    //遍历，找出3个中离窗口最近的。
     for(let i=1;i<specialTags.length;i++){
 
         if(Math.abs(specialTags[i].offsetTop - window.scrollY -130) <
@@ -34,7 +37,7 @@ function findCloest() {
         }
     }
     specialTags[minIndex].classList.remove('offset')
-
+    //找到导航栏相应目录高亮或取消
     let a = document.querySelector('a[href="#'+ specialTags[minIndex].id +'"]')
     let li = a.parentNode
     let brotherAndMe = li.parentNode.children
@@ -89,36 +92,6 @@ for(let i=0; i<aTags.length; i++){
             })
             .start();
     }
-}
-
-//点击作品子菜单，作品集滑块的变化
-
-// let submenuATags= document.querySelectorAll('nav.menu > ul > li  ul a')
-// for(let i=0; i<submenuATags.length; i++){
-//     submenuATags[i].onclick = function () {
-//         portfolioBar.className= 'bar'
-//         portfolioBar.classList.add('state'+(i+1))
-//     }
-// }
-portfolioAll1.onclick= function () {
-    portfolioBar.className= 'bar state1'
-}
-portfolioFrame1.onclick= function () {
-    portfolioBar.className= 'bar state2'
-}
-portfolioVallingJS1.onclick= function () {
-    portfolioBar.className= 'bar state3'
-}
-
-//作品集滑块滑动
-portfolioAll.onclick= function () {
-    portfolioBar.className= 'bar state1'
-}
-portfolioFrame.onclick= function () {
-    portfolioBar.className= 'bar state2'
-}
-portfolioVallingJS.onclick= function () {
-        portfolioBar.className= 'bar state3'
 }
 
 

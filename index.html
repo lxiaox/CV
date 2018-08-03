@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>lxiaox的个人简历</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+
     <script src="//at.alicdn.com/t/font_675456_d6matw1i786.js"></script>
     <style type="text/css">
         .loading{width:200px;height:200px;position:relative;}
@@ -67,6 +70,10 @@
     </div>
     <div class="banner"><div class="mask"></div></div>
     <main>
+
+
+
+
         <div data-x id="siteAbout" class="userCard">
             <div class="PictureAndText clearfix">
                 <div class="picture">
@@ -158,28 +165,21 @@
     </section>
     <section data-x id="siteWorks" class="portfolio">
         <h2>作品集</h2>
-        <nav>
-            <ol class="clearfix">
-                <li id="portfolioAll">所有</li>
-                <li id="portfolioFrame">框架</li>
-                <li id="portfolioVallingJS">原生JS&amp;CSS</li>
-            </ol>
-            <div id="portfolioBar" class="bar state1">
-                <div class="bar-inner"></div>
-            </div>
-        </nav>
 
-        <div class="works">
-            <div class="big" style="top:0; left: 0;">
-                <img src="./img/1.jpg" alt="作品1">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <img src="./img/works/canvas.jpg" class="swiper-slide">
+                <img src="./img/works/apple-slides.png" class="swiper-slide">
+                <img src="./img/works/nav-page.png" class="swiper-slide">
+
             </div>
-            <div class="small" style="top:0; left: 632px;">
-                <img src="./img/2.jpg" alt="作品2">
-            </div>
-            <div class="small" style="top:312px; left:632px;">
-                <img src="./img/3.jpg" alt="作品3">
-            </div>
+            <div class="swiper-pagination"></div>
+
         </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
     </section>
 
     <a class="backTop" href="#">
@@ -190,6 +190,26 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.2.0/Tween.min.js"></script>
     <script src="main.js"></script>
+    <script>
+        var mySwiper = new Swiper ('.swiper-container', {
+            // Optional parameters
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+
+        })
+    </script>
 
 </body>
+
 </html>
