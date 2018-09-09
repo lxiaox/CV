@@ -81,7 +81,7 @@ section.skills.offset .progressBar .progress{
     transform: translateX(-100%);}
 section.portfolio {margin-bottom: 100px;text-align: center;position: relative;}
 section.portfolio h2{margin-bottom: 32px;}
-section.portfolio .swiper-container{width: 669px;height: 501px;z-index: -1;}
+section.portfolio .swiper-container{width: 669px;height: 501px;z-index: 0;}
 section.portfolio .swiper-button-prev,
 section.portfolio .swiper-button-next{outline: transparent;left: auto;right: 90%;margin-top:16px;width: 36px;height: 36px;background-color: white;border-radius: 50%;z-index: 0;}
 section.portfolio .swiper-button-next{right: auto;left: 90%;}
@@ -100,6 +100,10 @@ section.message> .messageList{
 section.message> .messageList> li {
     border-bottom: 1px solid #DDD;
     padding: 10px;
+}
+
+section.message> .postMessageForm{
+    padding-left: 10px;
 }
 
 
