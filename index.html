@@ -158,13 +158,21 @@
         <h2>留言</h2>
         <ol id="messageList" class="messageList">
         </ol>
-        <form id="postMessageForm" class="postMessageForm">
-            <label for="">姓名:</label><br>
-            <input type="text" name="name"><br><br>
-            <label for="">内容:</label><br>
-            <textarea name="content" placeholder="你想对我说..." style="width: 173px;height: 50px;font-family: 'Microsoft YaHei'"></textarea><br><br>
-            <input type="submit">
-        </form>
+        <div class="messageFormWrapper">
+            <h3>我想留言</h3>
+            <form id="postMessageForm" class="postMessageForm">
+                <div class="messagerNameWrapper">
+                    <label for="messagerName" class="messagerName0">姓 名:</label>
+                    <input type="text" name="name" id="messagerName" class="messagerName" placeholder="Miss">
+                </div>
+                <div class="messageContentWrapper">
+                    <label for="messageContent" class="messageContent0">内 容:</label>
+                    <textarea id="messageContent" class="messageContent" name="content" placeholder="写下你的留言..." ></textarea>
+                </div>
+                <input type="submit" class="submitButton" value="提 交">
+            </form>
+        </div>
+
     </section>
 
     <a class="backTop" href="#">

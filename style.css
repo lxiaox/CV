@@ -81,30 +81,79 @@ section.skills.offset .progressBar .progress{
     transform: translateX(-100%);}
 section.portfolio {margin-bottom: 100px;text-align: center;position: relative;}
 section.portfolio h2{margin-bottom: 32px;}
-section.portfolio .swiper-container{width: 669px;height: 501px;z-index: 0;}
+section.portfolio .swiper-container{width: 669px;height: 501px;z-index: 0;box-shadow: 0 1px 5px 0 rgba(0,0,0,0.5);}
 section.portfolio .swiper-button-prev,
 section.portfolio .swiper-button-next{outline: transparent;left: auto;right: 90%;margin-top:16px;width: 36px;height: 36px;background-color: white;border-radius: 50%;z-index: 0;}
 section.portfolio .swiper-button-next{right: auto;left: 90%;}
 
-section.message{
-    max-width: 700px;
-    margin-bottom: 50px;
-}
+section.message{max-width: 700px;margin-bottom: 50px;}
 
-section.message> .messageList{
-    border-top: 1px solid #DDD;
-
-    margin-top: 20px;
-    margin-bottom: 50px;
+section.message> .messageList{border-top: 1px solid #DDD;margin-top: 20px;margin-bottom: 50px;}
+section.message> .messageList> li {border-bottom: 1px solid #DDD;padding: 10px;}
+section.message> .messageFormWrapper{
+    width: 670px;
+    background: #FFF;
+    padding: 20px 0;
+    margin-left: 16px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.5);
 }
-section.message> .messageList> li {
-    border-bottom: 1px solid #DDD;
+section.message> .messageFormWrapper> h3{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 16px;
+}
+section.message .postMessageForm{
     padding: 10px;
+    font-size: 16px;
+    position: relative;
 }
 
-section.message> .postMessageForm{
-    padding-left: 10px;
+section.message .postMessageForm .messagerNameWrapper{
+    margin-top: 20px;
 }
+section.message .postMessageForm .messageContentWrapper{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+section.message .postMessageForm .messagerName0,
+section.message .postMessageForm .messageContent0{
+    padding: 0 15px;
+    margin-left: 20px;
+}
+section.message .postMessageForm .messagerName,
+section.message .postMessageForm .messageContent{
+    width: 350px;
+    vertical-align:middle;
+    font-family: 'Microsoft YaHei';
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #CF5D5F;
+}
+section.message .postMessageForm .messagerName{
+    height: 40px;
+}
+section.message .postMessageForm .messageContent{
+    height: 100px;
+}
+section.message .postMessageForm .submitButton{
+    width: 100px;
+    height: 50px;
+    background: #E6686A;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 34px;
+    right: 60px;
+    font-size: 16px;
+}
+section.message .postMessageForm .submitButton:hover{
+    box-shadow: 3px 3px 7px 0 rgb(0,0,0,0.5)
+}
+input, label, textarea {
+    box-sizing: border-box;
+}
+
 
 
 [data-x]{transition: all 0.5s;}
