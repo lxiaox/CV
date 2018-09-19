@@ -64,7 +64,7 @@
                     messageList.appendChild(li)
                     myForm.querySelector('textarea[name=content]').value = ''
                 },function(){
-                    window.alert('提交失败，改天再来吧')
+                    window.alert('很抱歉，提交失败')
                 })
             }else{
                 alert('姓名和内容不能为空')
